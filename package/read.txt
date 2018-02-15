@@ -1,0 +1,10 @@
+cnvrt.go dosyasý c:/go/src altýndaki dizine kopyalanmýþtýr. Ýçeriði aþaðýdaki gibidir
+
+package cnvrt
+
+import "time"
+
+func DateToString(t time.Time) string {
+	return t.String()
+
+}
